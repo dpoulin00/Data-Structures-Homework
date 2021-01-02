@@ -2,11 +2,17 @@
 DJ Poulin
 CS 201 HW 2 - Battleship
 9/25/2020
+
+This homework assignment required the implementation of the board game Battleship. Upon being run, a board is created, and ships are randomly placed.
+Coordinates can then be inputted, and the game will tell the user whether that coordinate is a hit, a miss, or if it has already been guessed.
 ************************/
+
 import java.util.Random;
 import java.util.Scanner;
 
 class Battleship{
+  //Our battleship class. Contains methods Battleship(), BoardBuilder(), carrierPlacer(), battlShipPlacer(),
+  //destroyerAndSubmarinePlacer(), patrolBoatPlacer(), shipPlacer(), PrintBoard(), guess(), and play().
   int attempts;
   int hits;
   String[][] playerBoard;
