@@ -2,6 +2,11 @@
 DJ Poulin
 Data Structures - HW 5
 10/16/20
+
+The purpose of this homework was to teach us how to use the extends keyword. We were tasked with implementing a generic shape class, as well as five other specific shape
+classes which each extended the generic shape class. When program is run, the user is asked for a type of shape, as well as the length of each side. The program then
+returns the area and perimeter of the shape. Then, the program asks for how many of each shape to create as well as the max shape size. The program prints a list of these
+shapes and then sorts them by area.
 ****************/
 import java.util.Scanner;
 import java.lang.Math;
@@ -288,7 +293,7 @@ class Homework5{
 
 
   public static void main(String[] args){
-    //our main method. Goes through parts 1, 2, and 3
+    //our main method. Goes through parts 1, 2, and 3 of the homework assignment.
 
     Homework5 hw = new Homework5();
     hw.Part1();
