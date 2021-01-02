@@ -2,6 +2,13 @@
 DJ Poulin
 Data Structures
 HW 7: CPU Scheduling
+
+To run this program, make sure it is in the same folder as the included "Processes.txt."
+
+In this assignment, I had to implement a priority queue of "computer processes." 
+The program reads in "Processes.txt", creates the priority queue, and then "executes" 
+each process using whichever CPU (CPU 1 or CPU2) is available. Note that no actual processes
+are being run.
 *********************/
 import java.io.File;
 import java.io.FileNotFoundException;
