@@ -1,8 +1,12 @@
 /******************************
 DJ Poulin
 Data Structures
-HW 2 - Doubly Linked List
+HW 6 - Doubly Linked List
 10/30/2020
+
+This assignment was designed to let us get familiar with linked lists. We were given two files, the first contained a set of data pertaining to train cars,
+and the second contained data pertaining to destinations. This program reads in the first file and creates/organizes a doubly linked list of train cars.
+It then reads in the second file and, if any train cars have a destination included in the second file, removes them.
 *******************************/
 import java.io.File;
 import java.io.FileNotFoundException;
