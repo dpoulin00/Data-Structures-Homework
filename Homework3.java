@@ -2,6 +2,9 @@
 DJ Poulin
 Data Structures - Homework 3 - Connect Four
 October 2nd, 2020
+
+This homework assignment required the implementation of the game Connect Four. We were required to use specific data structures to hold previous guessed,
+even if they were not the most efficient.
 **********************/
 import java.util.Scanner;
 import java.util.Vector;
