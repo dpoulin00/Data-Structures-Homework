@@ -2,6 +2,13 @@
 DJ Poulin
 Data Structures
 Homework 10
+
+To run this file, use:
+"javac Homework10.java"
+"java Homework 10 Cars.txt CarsSold.txt"
+
+In this homework, I had to use a hash table to store data about a supposed car dealership. The following program reads in a file 
+and stores the data using a hash function, resizing the hash table as needed. It goes month by month, as there are also cars sold each month.
 *************************/
 import java.util.Scanner;
 import java.io.File;
