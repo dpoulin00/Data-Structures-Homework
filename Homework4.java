@@ -2,6 +2,9 @@
 DJ Poulin
 Data Structures - Homework 4 - Sorting
 10/9/20
+
+This homework assignment required the implementation of insertion sort, as well as the sorting of random 1D and 2D arrays. Note that bubbleSort() and selectionSort() were
+both supplied by my professor. When run, array sizes are requested of the user.
 ***************/
 import java.util.Random;
 import java.util.Scanner;
